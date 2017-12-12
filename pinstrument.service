@@ -1,10 +1,10 @@
 [Unit]
-Description=PyStrument
+Description=PInstrument
 After=multi-user.target
 
 [Service]
 Type=simple
-ExecStart=/usr/bin/python3 /home/pi/python/pystrument.py
+ExecStart=/usr/bin/python3 /home/pi/python/pinstrument.py
 Restart=no
 
 [Install]
