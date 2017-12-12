@@ -1,0 +1,13 @@
+[Unit]
+Description=PyStrument
+After=multi-user.target
+
+[Service]
+Type=simple
+ExecStart=/usr/bin/python3 /home/pi/python/pystrument.py
+Restart=no
+
+[Install]
+WantedBy=multi-user.target
+
+
